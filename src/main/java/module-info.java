@@ -1,6 +1,8 @@
 module com.empresa.javafxmongocrud100 {
     requires javafx.controls;
     requires javafx.fxml;
+    requires mongo.java.driver;
+    requires java.xml;
 
 
     opens com.empresa.javafxmongocrud100 to javafx.fxml;
